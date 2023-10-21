@@ -30,5 +30,8 @@
     "test": "mocha --check-leaks --require esm './**/*.test.js'",
     "start": "./bin/server",
     "dev": "node-dev bin/server --port 3000"
+  },
+  "engines": {
+    "node": "14.15.0"
   }
 }
